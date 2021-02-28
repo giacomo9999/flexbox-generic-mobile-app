@@ -31,6 +31,11 @@ body {
   color: #c5d3e2;
 }
 
+.spacer10 {
+  padding: 0;
+  height: 10px;
+}
+
 h1,
 h2,
 h3,
@@ -68,12 +73,12 @@ img {
 }
 
 .footer {
-  background-color: #222327;
+  background-color: #1c2a39;
   padding: 15px;
 }
 
 .header {
-  background-color: #222327;
+  background-color: #1c2a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,6 +110,13 @@ img {
 .recent {
   text-align: center;
   margin: 0 0 20px;
+  background-color: #1c2a39;
+}
+
+.recent-playlists {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .cover {
@@ -115,11 +127,12 @@ img {
 }
 
 .playlist {
+  width: 95%;
   border: 1px solid white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 0 25px;
+  margin: 0 0 10px;
 }
 
 .playlist h1 {
@@ -130,5 +143,40 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
   padding: 0 0 5px;
+}
+
+.now-playing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-title {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.artist {
+  color: #9caab9;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.nav-items li {
+  width: 100px;
+  text-align: center;
+}
+
+.nav-items p {
+  display: block;
+}
+
+.nav-items li img {
+  margin: 0 auto;
 }
